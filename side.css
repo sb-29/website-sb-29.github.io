@@ -1,0 +1,96 @@
+* 
+
+    
+{
+    box-sizing: border-box;
+}
+  
+  .column {
+    float: left;
+    width: 35%;
+    padding: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* .img-zoom-container {
+    position: relative;
+  }
+  
+  .img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    set the size of the lens://
+    width: 40px;
+    height: 40px;
+  }
+  
+  .img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of the result div://
+    width: 300px;
+    height: 300px;
+  }*/
+
+  .new-arrival
+  {
+      background: green;
+      width: 80px;
+      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
+      
+
+  }
+
+  .new-arrival:hover
+  {
+      opacity: 1;
+      transition: 0.5s;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .product input
+  {
+      border: 1px solid #ccc;
+      font-weight: bold;
+      height: 33px;
+      text-align: center;
+      width: 30px;
+  }
+
+  .product .btn-primary
+  {
+      background: orange !important;
+      color: #fff;
+      font-size: 20px;
+      margin-left: 20px;
+      border: none;
+      box-shadow: none;
+     
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
